@@ -1,0 +1,17 @@
+{
+  "name": "hardhat_solidity",
+  "version": "1.0.0",
+  "description": "Learning hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx hardhat compile",
+    "deploy-ganache": "npx hardhat run scripts/deploy.ts --network ganache"
+  },
+  "author": "Lucas Akio",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.16.0"
+  }
+}
