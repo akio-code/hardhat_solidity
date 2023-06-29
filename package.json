@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "npx hardhat compile",
-    "deploy-ganache": "npx hardhat run scripts/deploy.ts --network ganache"
+    "deploy-ganache": "npx hardhat run scripts/deploy.ts --network ganache",
+    "deploy-polygon-mumbai": "npx hardhat run scripts/deploy.ts --network polygon_mumbai"
   },
   "author": "Lucas Akio",
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.16.0"
   }
 }
